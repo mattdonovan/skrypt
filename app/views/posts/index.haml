@@ -1,18 +1,14 @@
-.container
-  .row
-    .col-lg-12
-      .headline
-        %h1 Skryp
-        = image_tag "skryp-logo.jpg", :height=>"149.5px", :width=>"229px"
-        %h3 The modern way to write a screenplay.
-        %p Compose, collaborate and share online.
+.headline
+  %h1 Skryp
+  = image_tag "skryp-logo.jpg", :height=>"149.5px", :width=>"229px"
+  %h3 The modern way to write a screenplay.
+  %p Compose, collaborate and share online.
 
-  .row 
-    .container.request-invite.col-lg-7
-      %p Sign up for early access when Skryp launches.
-    
-      .input-group
-        %input.form-control.input-lg{:type=>"text", :placeholder=>"Email Address"}
-        %span.input-group-btn 
-          %button.btn.btn-default{:type=>"button"} SEND
+.request-invite
+  %p Sign up for early access when Skryp launches.
 
+  %form{:action=>"http://donovanhouse.createsend.com/t/r/s/juukjth/", :method=>"post"}
+
+    %input{:id=>"fieldEmail", :name=>"cm-juukjth-juukjth", :type=>"email", :placeholder=>"Email Address"}
+    %span
+      %button{:type=>"submit"} Sign Up
