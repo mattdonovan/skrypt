@@ -1,0 +1,34 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono|Roboto+Slab);
+
+body {
+	background-color: #f5f4f0;
+	color: #4f4d4b;
+}
+
+.headline {
+	text-align: center;
+	padding-top: 60px;
+}
+
+h1 {
+	text-indent: -9999px;
+}
+
+h3 {
+
+	font-family: 'Roboto Slab', serif;
+	font-size: 32px;
+}
+
+p {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 22px;
+}
+
+.request-invite {
+	background-color: #ebebe7;
+}
+
+.container {
+	border-radius: 2px;
+}
