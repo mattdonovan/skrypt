@@ -7,7 +7,6 @@ body {
 
 .headline {
 	text-align: center;
-	padding-top: 40px;
 }
 
 h1 {
@@ -55,4 +54,8 @@ button {
 	padding: 15px 30px;
 	color: #fff;
 	font-size: 18px;
+}
+
+button:hover {
+	background: #c40162;
 }
