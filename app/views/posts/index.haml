@@ -1,14 +1,13 @@
 .headline
   %h1 Skryp
-  = image_tag "skryp-logo.jpg", :height=>"149.5px", :width=>"229px"
+  = image_tag "skryp-logo.jpg", :height=>"149.5px", :width=>"229px", :class=>"logo"
   %h3 The modern way to write a screenplay.
   %p Compose, collaborate and share online.
 
 .request-invite
-  %p Sign up for early access when Skryp launches.
+  %p Sign up for early access.
 
   %form{:action=>"http://donovanhouse.createsend.com/t/r/s/juukjth/", :method=>"post"}
 
     %input{:id=>"fieldEmail", :name=>"cm-juukjth-juukjth", :type=>"email", :placeholder=>"Email Address"}
-    %span
-      %button{:type=>"submit"} Sign Up
+    %button{:type=>"submit"} Sign Up

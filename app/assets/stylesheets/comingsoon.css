@@ -9,6 +9,10 @@ body {
 	text-align: center;
 }
 
+.logo {
+	margin: 0 auto;
+}
+
 h1 {
 	text-indent: -9999px;
 }
@@ -36,15 +40,15 @@ p {
 	border-radius: 2px;
 }
 
-input {
+.request-invite input {
 	position: relative;
 	width: 400px;
-	height: 35px !important;
+	height: 35px;
 	margin-top: 10px;
 	font-family: "Courier New";
-	font-size: 20px !important;
-	padding: 10px 10px 5px !important;
-	border-radius: 2px !important;
+	font-size: 20px;
+	padding: 10px 10px 5px;
+	border-radius: 2px;
 }
 
 button {
@@ -60,10 +64,10 @@ button:hover {
 	background: #c40162;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 730px) {
 
 	h3 {
-		font-size: 42px;
+		font-size: 32px;
 		line-height: 44px;
 		padding-bottom: 30px;
 		margin-bottom: 30px;
@@ -72,7 +76,7 @@ button:hover {
 	}
 
 	.request-invite {
-		width: 440px;
+		width: 280px;
 		margin-top: 20px;
 	}
 
@@ -80,12 +84,14 @@ button:hover {
 		font-size: 18px;
 	}
 
-	input {
-		width: 380px;
+	.request-invite input {
+		width: 220px;
+		font-size: 14px;
+		height: 30px;
 	}
 
 	button {
-		width: 400px;
+		width: 240px;
 	}
 
 }
